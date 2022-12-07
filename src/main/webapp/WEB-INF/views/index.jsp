@@ -10,6 +10,7 @@
 <title>메인페이지</title>
 </head>
 <body>
+	<h1>운영서버</h1>
 	<sec:authorize access="isAnonymous()">
 		<a href="/member/login">로그인</a>
 		<a href="/member/signup">회원가입</a>
